@@ -11,7 +11,7 @@ export function Dashboard() {
     setShowDetails(!showDetails);
   };
 
-  const [vendasAtuais, setVendasAtuais] = useState(200);
+  const [vendasAtuais, ] = useState(200);
   const metaMensal = 5000; // No futuro puxar a meta do usuário no banco de dados
   const diasRestantes = 10; // Setar para calcular automáticamente
 

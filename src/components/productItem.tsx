@@ -1,4 +1,4 @@
-export function ProductItem({ imageSrc, name, category, price }: { imageSrc: string, name: string, category: string, price: number }) {
+export function ProductItem({ imageSrc, name, category, price }: { imageSrc: string, name: string, category: string, price: string }) {
     return (
       <div className="flex items-center justify-between py-4">
         {/* Imagem do produto */}
