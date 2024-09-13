@@ -1,7 +1,7 @@
 import { Menu, User, ShoppingBag, UserSearch } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export function Sidebar({ toggleSidebar, isOpen, userRoute, salesManRoute, isManagerPage }) {
+export function Sidebar({ toggleSidebar, isOpen, userRoute, salesManRoute, isManagerPage }: { toggleSidebar: any, isOpen: any, userRoute: any, salesManRoute: any, isManagerPage: any }) {
   return (
     <div
       className={`fixed top-0 left-0 h-screen w-16 bg-black z-[9999] flex flex-col items-center py-8 space-y-6 transition-transform duration-300 ${

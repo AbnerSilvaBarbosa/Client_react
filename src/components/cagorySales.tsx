@@ -1,4 +1,4 @@
-export function CategorySales({ icon, name, sales, amount, percentageChange }) {
+export function CategorySales({ icon, name, sales, amount, percentageChange }: { icon: any, name: string, sales: number, amount: number, percentageChange: number }) {
   const isPositive = percentageChange > 0;
   const isNegative = percentageChange < 0;
 

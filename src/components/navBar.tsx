@@ -3,7 +3,7 @@ import { AlignJustify } from "lucide-react";
 import { Sidebar } from "../components/sideBar";
 import { SearchToggle } from "../components/searchToggle";
 
-export function NavBar({ userRoute, salesManRoute, isManagerPage }) {
+export function NavBar({ userRoute, salesManRoute, isManagerPage }: { userRoute: string, salesManRoute: string, isManagerPage: boolean }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
